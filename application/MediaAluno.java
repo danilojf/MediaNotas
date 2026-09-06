@@ -13,5 +13,12 @@ public class MediaAluno {
         System.out.println("Terceira nota:" + nota3);
         System.out.println("Quarta nota:" + nota4);
         System.out.println("Resultado Média: " + mediaNotasAlunos);
+
+        if(mediaNotasAlunos >= 6){
+            System.out.println("Aprovado");
+        }
+        else {
+            System.out.println("Reprovado");
+        }
     }
 }
