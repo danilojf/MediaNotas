@@ -7,7 +7,7 @@ public class MediaAluno {
         double nota2 = 7.0;
         double nota3 = 7.5;
         double nota4 = 8.4;
-        double mediaNotasAlunos = nota1 + nota2 + nota3 + nota4;
+        double mediaNotasAlunos = (nota1 + nota2 + nota3 + nota4)/ 4;
         System.out.println("Primeira nota:" + nota1);
         System.out.println("Segunda nota:" + nota2);
         System.out.println("Terceira nota:" + nota3);
